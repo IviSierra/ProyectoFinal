@@ -207,6 +207,16 @@
 /* media queries*/
 
 @media screen and (min-width: 270px) and (max-width: 504px){ 
+    .title{
+        font-size: 60px;
+    }
+    .descripcion{display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 15px;
+        margin-left: 2px;
+        
+    }
     .alineamiento{
         display: flex;
         flex-direction: column;
